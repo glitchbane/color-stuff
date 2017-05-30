@@ -1,0 +1,7 @@
+<app-color-block [startColor]="color" [colorLabel]="start">
+
+</app-color-block>
+
+<div *ngFor="let shade of shades; let i = index;">
+  <app-color-block [startColor]="shade" [colorLabel]="i"></app-color-block>
+</div>

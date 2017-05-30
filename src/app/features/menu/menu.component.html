@@ -1,0 +1,16 @@
+<div>
+  <label for="colorInput">Choose starting color</label>
+  <input id="colorInput" type="color"
+         [(ngModel)]="colorCode"
+         value=colorCode
+         class="form-control"
+         data-type="color"  (change)="test()"placeholder="test"/>
+  <label>{{colorCode}}</label>
+  <br>
+  <br>
+  <button [routerLink]="['hue']">Generate Hues</button>
+</div>
+
+<div>
+  <button [routerLink]="['value', {color: colorCode}]">Generate Values</button>
+</div>

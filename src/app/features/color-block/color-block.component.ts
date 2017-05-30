@@ -11,7 +11,7 @@ export class ColorBlockComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log(this.startColor);
+
   }
 
   getColor() {

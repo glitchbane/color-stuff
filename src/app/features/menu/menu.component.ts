@@ -1,0 +1,18 @@
+import {Component, OnInit, OnChanges} from '@angular/core';
+
+@Component({
+  selector: 'app-menu',
+  templateUrl: './menu.component.html',
+  styleUrls: ['./menu.component.css']
+})
+export class MenuComponent implements OnInit{
+  colorCode: string;
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+  test(){
+    console.log(this.colorCode);
+  }
+}

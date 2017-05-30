@@ -1,6 +1,9 @@
 .color-block {
-    width: 48px;
-    height: 48px;
+    margin-left: 1px;
+
+    width: 64px;
+    height: 64px;
     border: gray solid 1px;
     /*background-color: #416E05;*/
+    font-size: 12px;
 }
